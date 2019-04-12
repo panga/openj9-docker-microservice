@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk9-openj9:jdk-9.181
+FROM adoptopenjdk/openjdk11-openj9:jdk-9.181
 RUN mkdir /opt/shareclasses
 RUN mkdir /opt/app
 COPY app.jar /opt/app
