@@ -18,7 +18,7 @@ BTW do you remember the last time you ran any Java application with 128m max hea
 ``docker-compose up -d``
 
 ## Scale Microservice to N instances
-``docker-compose --scale app=N``
+``docker-compose up -d --scale app=N``
 
 ## Results with OpenJ9
 
